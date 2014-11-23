@@ -2,7 +2,7 @@
 ## If the inverse is cached, it returns the cache, otherwise it inverts the matrix and
 ##   caches the inverse before returning the inverse of the given matrix.
 
-## Creates a list containing four functions.  Two functions to cache and retrieve a matrix
+## Creates a list containing four functions:  Two functions to cache and retrieve a matrix
 ##   and two functions to cache and retrieve the inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
